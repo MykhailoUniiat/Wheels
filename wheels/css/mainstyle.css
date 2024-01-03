@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #060606;
+    border-radius: 15px;
+}
+.pointer {
+    cursor: pointer;
+}
+a {
+    color: black;
+    text-decoration: none !important;
+}
+.opacity {
+    opacity: 0.1;
+}
+li {
+    list-style-type: none !important;
+}
+.container-header {
+    position: relative;
+}
+.img-container {
+    display: flex;
+}
+.img-container {
+    background-color: #060606;
+    max-height: 1080.05px;
+    z-index: -1;
+}
+nav {
+    position: absolute !important;
+    top: 0;
+}
+.container-navbar {
+    position: absolute !important;
+    width: 100%;
+}
+.container-navbar-items {
+    padding: 70px 5% !important;
+}
+.head-title {
+    letter-spacing: 2px;
+}
+.container-to-text-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    width: 10%;
+    letter-spacing: 2px;
+    font-size: larger;
+}
+.button-menu {
+    border: none !important;
+}
+:focus {
+    box-shadow: none !important;
+}
+.container-text-welcome-to-wheels {
+    letter-spacing: 2px;
+    text-align: end;
+    top: 50%;
+    right: 5%;
+    min-width: 450px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.text-welcone-content-end {
+    font-size: smaller;
+    font-family: "BioRhyme";
+}
+.container-mouse-bottom {
+    position: absolute;
+    min-width: 50px;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%);
+}
+.container-about-us {
+    padding: 0px 5%;
+    align-items: center;
+    height: 75px;
+    --bs-gutter-x: 0 !important;
+    box-shadow: 0px 20px 15px #758078;
+}
+.container-about-us-head-title, .container-tab-1-content-head-title {
+    letter-spacing: 2px;
+}
+.container-tabs {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 0 !important;
+}
+.li-tabs {
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.tabs-decoration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.container-tab-1-content, .container-tab-2-content,
+.container-tab-3-content, .container-tab-4-content,
+.container-tab-5-content, .container-tab-6-content, 
+.container-tab-content, .container-products-head-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-tab-1-content-under-head-title, .container-tab-2-content-under-head-title,
+.container-tab-3-content-under-head-title, .container-tab-4-content-under-head-title,
+.container-tab-5-content-under-head-title {
+    color: #454545;
+}
+.container-tab-1-content-text, .container-tab-2-content, .container-tab-3-content,
+.container-tab-4-content-text, .container-tab-5-content-text {
+    color: #454545;
+    font-size: 12px;
+}
+.bike-wheel-icon, .account-icon, .camera-icon,
+.phone-icon, .basket-icon {
+    width: 60px;
+}
+.box-icon, .bike-icon {
+    width: 75px;
+}
+.contacts-button {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #060606;
+}
+.contacts-button:hover {
+    background-color: white;
+    color: #454545;
+    border: 2px solid #454545;
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 500ms;
+}
+.container-info {
+    position: relative;
+}
+.container-info-text {
+    top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 100px;
+}
+.letter-spacing {
+    letter-spacing: 2px;
+}
+.container-info-text-title {
+    font-size: 25px;
+}
+.container-info-body .fw-bold {
+    font-size: 75px;
+}
+.container-info-text-under-title {
+    font-size: 13px;
+}
+.container-info-body {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: start;
+}
+.container-info-body-small {
+    display: none;
+}
+.container-info-body-small-head-title {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-info-img {
+    background-image: url("../img/stats/bg-image.png");
+    z-index: -1;
+}
+.container-products-for-two-rows {
+    margin: 20px 10%;
+}
+.col-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-products-under-img-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-products-under-img-lern-more {
+    text-decoration: underline !important;
+}
+.container-about-us-small {
+    display: none;
+}
+.container-my-team {
+    background-color: #eeeeee;
+}
+.container-my-team-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-my-team-row-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container-my-team-row-col-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.container-social-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.medium {
+    display: none;
+}
+.small {
+    display: none;
+}
+.underline {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #181818;
+}
+.container-footer-row-col-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.google-maps {
+    height: 210px;
+    width: 250px;
+}
+.filter {
+    filter: grayscale(100%);
+}
+.filter:hover {
+    filter: grayscale(0%);
+    transition-property: filter;
+    transition-duration: 1000ms;
+}
+.container-footer-row-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-footer-row-col-items {
+    width: 40%;
+}
+@media (max-width:1920px) {
+    .container-info-text {
+        gap: 50px;
+    }
+}
+@media (max-width:1300px) {
+    .container-info-text {
+        gap: 20px;
+    }
+}
+@media (max-width:1200px) {
+    .container-info-body {
+        min-height: 150px;
+        align-items: center;
+    }
+    .container-info-text-head-title {
+        display: none;
+    }
+    .container-tabs {
+        gap: 25px;
+    }
+    .container-text-welcome-to-wheels {
+        display: none;
+    }
+}
+@media (max-width:992px) {
+    .big {
+        display: none;
+    }
+    .medium {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .container-info-text-title {
+        font-size: smaller !important;
+    }
+    .container-info-body .fw-bold {
+        font-size: 30px !important;
+    }
+    .container-info-body div {
+        font-size: 10px;
+    }
+    .container-about-us-small {
+        display: block;
+    }
+    #tabs {
+        display: none;
+    }
+    .container-mouse-bottom {
+        display: none;
+    }
+    .container-navbar-items {
+        padding: 5px !important;
+    }
+}
+@media (max-width:768px) {
+    .container-info-body {
+        min-height: 75px;
+    }
+}
+@media (max-width:576px) {
+    .medium {
+        display: none;
+    }
+    .small {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-info-body {
+        display: none;
+    }
+    .container-info-body-small {
+        display: block;
+    }
+}

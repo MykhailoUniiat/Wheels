@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN IN</title>
+    <link rel="icon" type="image/x-icon" href="img/logo/logo-wheels.png">
+    <link rel="stylesheet" href="css/formstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container-header">
+            <a href="main.html" class="container-header-title">WHEELS</a>
+            <div class="container-header-menu" title="Not avalible on this page!">MENU<i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+    <main>
+        <section class="section-head-title">
+            <div class="container-head-title"><img src="img/logo/SIGNIN.png" class="img-signin"></div>
+        </section>
+        <section class="section-form">
+            <form action="#" method="post">
+                <div class="content">
+                    <fieldset class="left-fieldset">
+                        <h2>Your avatar</h2>
+                        <div id="photo">
+                            <img src="">
+                        </div>
+                        <div class="text-under-avatar-container">
+                            <div class="text-under-avatar-container-name"><p class="full-name-before">First name :</p><p class="full-name"><span class="first-name"></span> <p class="last-name-before">Last name :</p><span class="last-name"></span></p></div>
+                            <div class="age-phone-container">
+                                <div class="text-under-avatar-container-age"><p class="age-before">Age :</p><p class="age"></p></div>
+                                <div class="text-under-avatar-container-phone"><p class="phone-before">Phone :</p><p class="phone"></p></div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="right-fieldset">
+                        <p>
+                            <label for="first-name">First name</label>
+                            <input type="text" name="first-name" placeholder="Michael" class="text-black">
+                        </p>
+                        <p>
+                            <label for="last-name">Last name</label>
+                            <input type="text" name="last-name" placeholder="Jackson" class="text-black">
+                        </p>
+                        <p>
+                            <label for="age">Age</label>
+                            <input type="number" name="age" class="text-black" placeholder="50">
+                        </p>
+                        <p>
+                            <label for="phone">Phone</label>
+                            <input type="number" name="phone" class="text-black" placeholder="097XXXXXXX">
+                        </p>
+                        <p>
+                            <label for="icon">Icon</label>
+                            <input id="icon" type="file">
+                        </p>
+                        <div class="buttons">
+                            <div class="buttons-subm-del">
+                                <div class="buttons-subm-del-wraper">
+                                    <button class="send" type="submit">
+                                        SUBMIT
+                                    </button>
+                                    <button class="delete" type="reset">
+                                        DELETE
+                                    </button>
+                                </div>
+                            </div>    
+                            <div class="buttons-done-cancel">
+                                <div class="buttons-done-cancel-wraper">
+                                    <div class="done green">
+                                        <i class="fa-solid fa-check green"></i>DONE
+                                    </div>
+                                    <div class="cancelled red">
+                                        <i class="fa-solid fa-xmark red"></i>CANCELLED
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="check" type="submit">CHECK</button>
+                    </fieldset>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container-footer text-white">
+            WHEELZ
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>

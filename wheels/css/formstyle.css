@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    color: white;
+}
+body::-webkit-scrollbar {
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #060606;
+    border-radius: 15px;
+}
+.header {
+    height: 100px;
+    background-color: #060606;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 40px;
+}
+.container-header-title, .container-header-menu {
+    font-size: 26px;
+    font-weight: 700;
+}
+.container-header-title{
+    color: white;
+    text-decoration: none;
+}
+.container-header-menu {
+    color: grey;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+.img-signin {
+    width: 200px;
+}
+.container-head-title {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+fieldset:first-child,
+fieldset p,
+.content,
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    position: relative;
+}
+
+#photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0f5f5;
+}
+
+#photo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    color: #fff;
+}
+
+fieldset {
+    position: relative;
+    padding: 40px 5px;
+    background-color: #fff;
+}
+
+fieldset:first-child {
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+fieldset p {
+    justify-content: space-between;
+    gap: 15px;
+}
+
+input {
+    outline: 0;
+    background-color: #f0f5f5;
+}
+
+.content,
+.controls {
+    align-items: stretch;
+}
+
+.controls,
+fieldset p,
+input {
+    padding: 5px;
+}
+
+fieldset {
+    background-image: url("../img/");
+}
+
+.right-fieldset {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(-1deg, #3D424a 15%, black);
+}
+
+.left-fieldset {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: linear-gradient(1deg, #3D424a 15%,  black);
+}
+
+
+button {
+    color: black;
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+.age-phone-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer {
+    margin: 40px 0px 0px 0px;
+    background-color: #181818;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text-black {
+    color: black;
+}
+@media (max-width: 575px) {
+    .content {
+        flex-direction: column;
+    }
+    .age-phone-container {
+        display: block;
+    }
+    .right-fieldset {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .left-fieldset {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+
+[type="file"] {
+    width: 130px;
+    background-color: #fff;
+    text-align: right;
+    color: black;
+}
+
+::-webkit-file-upload-button {
+    display: none;
+}
+
+.check {
+    padding: 10px;
+    width: 75%;
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    z-index: 1000;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text-under-avatar-container-name {
+    display: flex;
+    align-items: center;
+}
+.text-under-avatar-container-age, .text-under-avatar-container-phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.red {
+    color: red;
+    font-weight: 600;
+}
+.green {
+    color: green;
+    font-weight: 600;
+}
+
+.buttons-done-cancel-wraper {
+    display: flex;
+}
+.cancelled, .done {
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
